@@ -38,7 +38,7 @@
                             <div class="de-flex-col">
                                 <div class="de-flex-col">
                                     <!-- logo begin -->
-                                    <div id="logo">
+                                    <div id="logo" style="margin: 14px 0;">
                                         <a href="#">
                                             <img alt="" src="images/BeSingular-White-Logo 2.png"/>
                                         </a>
@@ -49,48 +49,9 @@
                             </div>
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainmenu begin -->
-                                <ul id="mainmenu">
-                                    <li>
-                                        <a href="#">Home<span></span></a>
-                                        <ul>
-                                            <li><a href="#">Homepage 1</a></li>
-                                            <li><a href="#">Homepage 2</a></li>
-                                            <li><a href="#">Homepage 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Explore<span></span></a>
-                                        <ul>
-                                            <li><a href="#">Explore</a></li>
-                                            <li><a href="#">Explore 2</a></li>
-                                            <li><a href="#">Collections</a></li>
-                                            <li><a href="#">Live Auction</a></li>
-                                            <li><a href="#">Item Details</a></li>
-                                            <li><a href="#">Help Center</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Author<span></span></a>
-                                        <ul>
-                                            <li><a href="#">Author</a></li>
-                                            <li><a href="#">Wallet</a></li>
-                                            <li><a href="#">Create</a></li>
-                                            <li><a href="#">Login</a></li>
-                                        </ul>
-                                    </li>                                    
-                                    <li>
-                                        <a href="#">Stats<span></span></a>
-                                        <ul>
-                                            <li><a href="#">Activity</a></li>
-                                            <li><a href="#">Rankings</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                
                                 <!-- mainmenu close -->
-                                <div class="menu_side_area">
-                                    <a href="#" class="btn-main"><i class="icon_wallet_alt"></i><span>Connect Wallet</span></a>
-                                    <span id="menu-btn"></span>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -385,7 +346,36 @@
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
           </form> -->
-          <iframe frameborder="0" style="height:560px;width:100%;border:none;" scrolling="no" src='https://forms.zohopublic.in/besingulardemo/form/BeSingularZapLearnEnquiryForm/formperma/HgOGTaUoWSecB6G7WsWEvclHVKTub3qEOkrZzeACkUA'></iframe>
+          <!-- <iframe frameborder="0" style="height:560px;width:100%;border:none;" scrolling="no" src='https://forms.zohopublic.in/besingulardemo/form/BeSingularZapLearnEnquiryForm/formperma/HgOGTaUoWSecB6G7WsWEvclHVKTub3qEOkrZzeACkUA'></iframe> -->
+          <div id="zf_div_HgOGTaUoWSecB6G7WsWEvclHVKTub3qEOkrZzeACkUA"></div><script type="text/javascript">(function() {
+            try{
+            var f = document.createElement("iframe");   
+            f.src = 'https://forms.zohopublic.in/besingulardemo/form/BeSingularZapLearnEnquiryForm/formperma/HgOGTaUoWSecB6G7WsWEvclHVKTub3qEOkrZzeACkUA?zf_rszfm=1';
+            f.style.border="none";                                           
+            f.style.height="474px";
+            f.style.width="90%";
+            f.style.transition="all 0.5s ease";
+            var d = document.getElementById("zf_div_HgOGTaUoWSecB6G7WsWEvclHVKTub3qEOkrZzeACkUA");
+            d.appendChild(f);
+            window.addEventListener('message', function (){
+            var evntData = event.data;
+            if( evntData && evntData.constructor == String ){
+            var zf_ifrm_data = evntData.split("|");
+            if ( zf_ifrm_data.length == 2 ) {
+            var zf_perma = zf_ifrm_data[0];
+            var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
+            var iframe = document.getElementById("zf_div_HgOGTaUoWSecB6G7WsWEvclHVKTub3qEOkrZzeACkUA").getElementsByTagName("iframe")[0];
+            if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
+            var prevIframeHeight = iframe.style.height;
+            if ( prevIframeHeight != zf_ifrm_ht_nw ) {
+            iframe.style.height = zf_ifrm_ht_nw;
+            }   
+            }
+            }
+            }
+            }, false);
+            }catch(e){}
+            })();</script>
         </section>
         <!-- footer begin -->
         <footer>
